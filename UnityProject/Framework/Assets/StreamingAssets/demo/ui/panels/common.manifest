@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 2115692183
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a5b3d60074e55a74afd61889862e998b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 88930dfea5b8ce5527546ab86e1ae6b9
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 096cdf751328a5b49833a45472a9933a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b1c387ea45f6547b773ee33ee5f554, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cc9560c722538f444923db9e5ab86f53, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Demo/UI/Panels/Common/FloatMessagePanel.prefab
+- Assets/Resources/Demo/UI/Panels/Common/MsgBoxPanel.prefab
+Dependencies: []

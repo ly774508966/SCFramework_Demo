@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1558981288
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: uiatlas/demo/common
+      Dependencies: {}
+    Info_1:
+      Name: demo/ui/panels/common
+      Dependencies: {}
+    Info_2:
+      Name: demo/ui/panels/funcpanel
+      Dependencies:
+        Dependency_0: uiatlas/demo/common
+    Info_3:
+      Name: demo/ui/panels/resourcedemopanel
+      Dependencies: {}
+    Info_4:
+      Name: demo/ui/panels/navigationpanel
+      Dependencies: {}
+    Info_5:
+      Name: demo/ui/panels/mainpanel
+      Dependencies:
+        Dependency_0: uiatlas/demo/common
+    Info_6:
+      Name: demo/scenes/demo
+      Dependencies: {}
+    Info_7:
+      Name: demo/scenes/demo2
+      Dependencies:
+        Dependency_0: uiatlas/demo/common

@@ -1,0 +1,3 @@
+[submodule "UnityProject/Framework/Assets/SCFramework"]
+	path = UnityProject/Framework/Assets/SCFramework
+	url = https://github.com/SnowCold/SCFramework_Engine.git

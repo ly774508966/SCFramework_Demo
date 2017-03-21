@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 2711100181
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4cff313f8af718bdaca565e4bce705a0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f121df871d5da912d5784e32d3013637
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 91542c8aa4ecbea41a00dfa935ff0fac, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Demo/UI/Panels/MainPanel/MainPanel.prefab
+Dependencies:
+- F:/Develop/SCFramework/UnityProject/Framework/Assets/StreamingAssets/uiatlas/demo/common

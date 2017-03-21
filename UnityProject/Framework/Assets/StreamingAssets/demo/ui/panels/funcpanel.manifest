@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 84239520
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c6e7e1d623da11be3c862649d2aaf416
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 61da32b0ccf42d4dee818a7d5a4c0c2a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 575553740, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -98529514, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: adee312490426e344b853c73a7f207da, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c8594c5611c23e7469ffc2d7f1be7d20, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e4ea96e84d339b84fa801bda52d11203, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4642469ac202b1948b143f9e8eddaa79, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d36f33ea9cd601f4b8cb7a9f409ec6c0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Demo/UI/Panels/FuncPanel/FuncPanel2.prefab
+- Assets/Resources/Demo/UI/Panels/FuncPanel/FuncPanel1.prefab
+Dependencies:
+- F:/Develop/SCFramework/UnityProject/Framework/Assets/StreamingAssets/uiatlas/demo/common
