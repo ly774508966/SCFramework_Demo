@@ -42,7 +42,7 @@ namespace Game.Demo
 
         private void OnClickF4()
         {
-            SceneMgr.S.SwitchSceneAsync("demo2", OnSceneLoadResult, LoadSceneMode.Single);
+            SceneMgr.S.LoadABSceneAsync("demo2", OnSceneLoadResult, LoadSceneMode.Single);
         }
 
         private void OnSceneLoadResult(string sceneName, bool result)

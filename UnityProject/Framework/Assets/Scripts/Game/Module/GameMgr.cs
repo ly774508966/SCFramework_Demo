@@ -43,6 +43,8 @@ namespace Game.Demo
                 DebugLogger.S.InitDebugLogger();
             }
 
+            AddCom<TableModule>();
+
             AddCom<UIDataModule>();
 
             AddCom<InputModule>();

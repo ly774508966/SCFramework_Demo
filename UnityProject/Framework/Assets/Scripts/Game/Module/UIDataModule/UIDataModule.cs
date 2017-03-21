@@ -16,7 +16,7 @@ namespace Game.Demo
 
         private void RegisterAllPanel()
         {
-            UIDataTable.SetABMode(true);
+            UIDataTable.SetABMode(false);
 
             UIDataTable.AddPanelData(EngineUI.FloatMessagePanel, null, "Common/FloatMessagePanel", true, 1);
             UIDataTable.AddPanelData(EngineUI.MsgBoxPanel, null, "Common/MsgBoxPanel", true, 1);

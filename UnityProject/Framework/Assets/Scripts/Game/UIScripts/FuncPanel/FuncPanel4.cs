@@ -22,6 +22,22 @@ namespace Game.Demo
             RegisterEvent(EventID.OnSpriteUpdateEvent, OnSpriteUpdateEvent);
         }
 
+        protected override void OnPanelOpen(params object[] args)
+        {
+            int count = TDItemTable.count;
+            for (int i = 0; i < count; ++i)
+            {
+                TDItem data = TDItemTable.dataList[i];
+                Log.i(data.id + " " + data.itemDes);
+            }
+
+            Log.i("Const:" + TDConstTable.QueryInt(ConstType.ConstTest1));
+            Log.i("Const:" + TDConstTable.QueryString(ConstType.ConstTest2));
+
+            Log.i("Language:" + TDLanguageTable.Get("language_1"));
+            Log.i("Language:" + TDLanguageTable.GetFormat("language_3", "askdha", "skjdhaskj"));
+        }
+
         protected void OnSpriteUpdateEvent(int key, params object[] args)
         {
             if (args.Length == 0)
