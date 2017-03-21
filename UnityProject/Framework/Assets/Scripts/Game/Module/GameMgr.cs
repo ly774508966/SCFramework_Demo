@@ -34,20 +34,13 @@ namespace Game.Demo
 
         protected override void OnActorStart()
         {
-            //初始化资源系统
-            ResMgr.S.InitResMgr();
-            AppConfig.S.InitAppConfig();
+            StartProcessModule module = AddMonoCom<StartProcessModule>();
 
-            if (AppConfig.S.dumpToFile)
-            {
-                DebugLogger.S.InitDebugLogger();
-            }
+            module.SetFinishListener(OnStartProcessFinish);
+        }
 
-            AddCom<TableModule>();
-
-            AddCom<UIDataModule>();
-
-            AddCom<InputModule>();
+        protected void OnStartProcessFinish()
+        {
             UIMgr.S.OpenPanel(UIID.MainPanel);
         }
     }

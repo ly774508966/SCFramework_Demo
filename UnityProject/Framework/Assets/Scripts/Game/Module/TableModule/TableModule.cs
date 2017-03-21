@@ -8,6 +8,13 @@ namespace Game.Demo
 {
     public class TableModule : AbstractModule
     {
+        private bool m_IsTableLoadFinish = false;
+
+        public bool isTableLoadFinish
+        {
+            get { return m_IsTableLoadFinish; }
+        }
+
         protected override void OnComAwake()
         {
             InitPreLoadTableMetaData();
@@ -19,6 +26,7 @@ namespace Game.Demo
         private void OnTableLoadFinish()
         {
             TDConstTable.InitArrays(typeof(ConstType));
+            m_IsTableLoadFinish = true;
         }
 
         private void InitPreLoadTableMetaData()
