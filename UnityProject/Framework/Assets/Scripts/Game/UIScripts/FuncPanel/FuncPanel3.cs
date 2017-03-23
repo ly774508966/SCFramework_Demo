@@ -5,12 +5,25 @@ using UnityEngine.UI;
 
 namespace Game.Demo
 {
-    public class FuncPanel3 : AbstractPanel
+	public class FuncPanel3 : AbstractPanel, NavigationPanel.IAdapter
     {
         [SerializeField]
         private InputField m_InputField;
         [SerializeField]
         private Button m_SendButton;
+
+		public string panelName
+		{
+			get
+			{
+				return "FuncPanel3";
+			}
+		}
+
+		public void OnCloseClick()
+		{
+			CloseSelfPanel();
+		}
 
         protected override void OnUIInit()
         {
@@ -21,6 +34,11 @@ namespace Game.Demo
         {
             RegisterEvent(EventID.OnPanel4Close, OnPanel4CloseEvent);
         }
+
+		protected override void OnPanelOpen (params object[] args)
+		{
+			OpenDependPanel (UIID.NavigationPanel, this);
+		}
 
         private void OnClickSendButton()
         {

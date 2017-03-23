@@ -11,6 +11,7 @@ namespace Game.Demo
         FuncPanel2,
         FuncPanel3,
         FuncPanel4,
+		FuncPanel5,
         NavigationPanel,
         LoginPanel,
         GamePanel,

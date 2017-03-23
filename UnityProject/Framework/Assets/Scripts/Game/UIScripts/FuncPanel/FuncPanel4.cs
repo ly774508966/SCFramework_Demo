@@ -5,12 +5,25 @@ using UnityEngine.UI;
 
 namespace Game.Demo
 {
-    public class FuncPanel4 : AbstractPanel
+	public class FuncPanel4 : AbstractPanel, NavigationPanel.IAdapter
     {
         [SerializeField]
         private Image m_DisplayImage;
         [SerializeField]
         private Button m_CloseButton;
+
+		public string panelName
+		{
+			get
+			{
+				return "FuncPanel4";
+			}
+		}
+
+		public void OnCloseClick()
+		{
+			CloseSelfPanel();
+		}
 
         protected override void OnUIInit()
         {
@@ -24,6 +37,8 @@ namespace Game.Demo
 
         protected override void OnPanelOpen(params object[] args)
         {
+			OpenDependPanel (UIID.NavigationPanel, this);
+
             int count = TDItemTable.count;
             for (int i = 0; i < count; ++i)
             {

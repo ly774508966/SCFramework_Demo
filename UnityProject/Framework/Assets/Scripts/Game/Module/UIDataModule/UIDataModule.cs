@@ -28,6 +28,7 @@ namespace Game.Demo
             UIDataTable.AddPanelData(UIID.FuncPanel2, null, "FuncPanel/FuncPanel2", true, 0);
             UIDataTable.AddPanelData(UIID.FuncPanel3, null, "FuncPanel/FuncPanel3", true, 0);
             UIDataTable.AddPanelData(UIID.FuncPanel4, null, "FuncPanel/FuncPanel4", true, 0);
+			UIDataTable.AddPanelData(UIID.FuncPanel5, null, "FuncPanel/FuncPanel5", false, 0);
 
             UIDataTable.AddPanelData(UIID.GamePanel, typeof(GamePanel), "GamePanel/GamePanel", true, 0);
             UIDataTable.AddPanelData(UIID.NavigationPanel, null, "NavigationPanel/NavigationPanel", true, 1);

@@ -1,0 +1,19 @@
+1.Demo 展示功能
+	1.
+2.文档
+	a.EventSystem
+	b.FSM
+	c.UIMgr.Panel生命周期，功能点
+	d.Pool
+	e.Singleton
+	f.ResMgr
+	g.Table(配置表解决方案
+	//代码分层
+	h.Module划分&管理
+	i:常用UI控件
+
+3.统一工程结构
+	a.ProjectConfig
+
+4.管理运行时结构
+
