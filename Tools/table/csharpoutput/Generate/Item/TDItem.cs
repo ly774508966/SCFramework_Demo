@@ -45,7 +45,6 @@ namespace Game.Demo
         private string m_LuaScript;
         private string m_FlowID;
       
-      private Dictionary<string, TDUniversally.FieldData> m_DataCacheNoGenerate = new Dictionary<string, TDUniversally.FieldData>();
       
         /// <summary>
         /// 道具ID
@@ -325,20 +324,10 @@ namespace Game.Demo
                     m_FlowID = dataR.ReadString();
                     break;
                 default:
-                    TableHelper.CacheNewField(dataR, schemeNames[col], m_DataCacheNoGenerate);
                     break;
             }
           }
 
-        }
-        
-        public DataStreamReader.FieldType GetFieldTypeInNew(string fieldName)
-        {
-            if (m_DataCacheNoGenerate.ContainsKey(fieldName))
-            {
-                return m_DataCacheNoGenerate[fieldName].fieldType;
-            }
-            return DataStreamReader.FieldType.Unkown;
         }
         
         public static Dictionary<string, int> GetFieldHeadIndex()

@@ -45,7 +45,6 @@ namespace Game.Demo
       #end if
       #end for
       
-      private Dictionary<string, TDUniversally.FieldData> m_DataCacheNoGenerate = new Dictionary<string, TDUniversally.FieldData>();
       #set $index = 0
       #for member in class_members
       
@@ -67,7 +66,6 @@ namespace Game.Demo
 
         public void ReadRow(DataStreamReader dataR, int[] filedIndex)
         {
-          var schemeNames = dataR.GetSchemeName();
           int col = 0;
           while(true)
           {
@@ -100,20 +98,10 @@ namespace Game.Demo
             #set $index = $index + 1
             #end for
                 default:
-                    TableHelper.CacheNewField(dataR, schemeNames[col], m_DataCacheNoGenerate);
                     break;
             }
           }
 
-        }
-        
-        public DataStreamReader.FieldType GetFieldTypeInNew(string fieldName)
-        {
-            if (m_DataCacheNoGenerate.ContainsKey(fieldName))
-            {
-                return m_DataCacheNoGenerate[fieldName].fieldType;
-            }
-            return DataStreamReader.FieldType.Unkown;
         }
         
         public static Dictionary<string, int> GetFieldHeadIndex()

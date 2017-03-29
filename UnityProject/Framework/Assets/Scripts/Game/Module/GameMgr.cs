@@ -16,7 +16,7 @@ namespace Game.Demo
             {
                 if (s_Instance == null)
                 {
-                    s_Instance = TMonoSingleton<ApplicationMgr>.CreateMonoSingleton<GameMgr>();
+                    s_Instance = MonoSingleton.CreateMonoSingleton<GameMgr>();
                 }
                 return s_Instance;
             }
